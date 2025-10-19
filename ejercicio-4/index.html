@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Digimon (Ejercicio 4)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Buscador de Digimon</h1>
+
+    <div class="controles">
+        <input type="text" id="nombreInput" placeholder="Buscar por nombre...">
+        <button id="buscarNombreBtn">Buscar Nombre</button>
+    </div>
+    
+    <div class="controles">
+        <input type="text" id="nivelInput" placeholder="Buscar por nivel (Ej: Rookie)">
+        <button id="buscarNivelBtn">Buscar Nivel</button>
+    </div>
+    
+    <div class="controles">
+        <button id="todosBtn">Mostrar Todos</button>
+    </div>
+
+    <hr>
+
+    <table id="digimonTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Nivel</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
